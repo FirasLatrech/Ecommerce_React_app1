@@ -1,0 +1,80 @@
+.mainSection{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+}
+.textContainerSecondSection h2{
+  color: var(--text-color, #252B42);
+
+/* h3 */
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+
+}
+.textContainerSecondSection p{
+  color: var(--second-text-color, #737373);
+text-align: center;
+
+/* paragraph */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
+.imageContainer{
+  display: flex;
+  gap: 2rem;
+}
+.ACCESSORIESANDKIDS{
+  display: flex;
+  
+  flex-direction: column;
+  gap: 1rem;
+}
+.accessories{
+  margin-bottom: calc( -3rem - 4px) ;
+}
+.accessoriesbutton {
+    position: relative !important;
+    top: -1rem !important;
+}
+button{
+  display: flex;
+width: 170px;
+padding: 12px 0px;
+justify-content: center;
+align-items: center;
+background: var(--light-background-color, #FFF);
+border: none;
+font-weight: bold;
+cursor: pointer;
+}
+.men button{
+  position: relative;
+  top: -4rem;
+  margin-left: 1rem;
+  
+}
+.women button{
+  position: relative;
+  top: -4rem;
+  margin-left: 1rem;
+
+}
+.ACCESSORIESANDKIDS button{
+  position: relative;
+  top: -4rem;
+    margin-left: 1rem;
+
+}
+.kid{
+  width: 5rem;
+}

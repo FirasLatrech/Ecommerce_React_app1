@@ -1,0 +1,9 @@
+.cartContiner{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-left: 11rem;
+}
+
+
+

@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+.container{
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 6rem;
+
+  display: flex;
+  
+}
+.imageContiner{
+  width: 506px;
+height: 450px;
+}
+.imageContiner img{
+  border-radius: 27px;
+  width: 90%;
+  height: 95%;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.text h4{
+  color: var(--text-color, #252B42);
+
+/* h4 */
+font-family: "Montserrat";
+font-size: 20px;
+font-style: normal;
+font-weight: bold;
+line-height: 30px; /* 150% */
+letter-spacing: 0.2px;
+}
+.price{
+  display: flex;
+  gap: 1rem;
+}
+.ProductpricAfterDiscount{
+  color: var(--muted-color, #BDBDBD);
+text-align: center;
+text-decoration: line-through;
+/* h5 */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+}
+.ProductpricebeforDiscount{
+  color: var(--secondary-color-1, #23856D);
+text-align: center;
+
+/* h5 */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+}
+.quantite{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--second-text-color, #737373);
+
+/* h6 */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+}
+.quantite h3{
+  color: var(--primary-color, #23A6F0);
+
+/* h6 */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.2px;
+}
+.text h6{
+  color: #858585;
+
+/* paragraph */
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 142.857% */
+letter-spacing: 0.2px;
+}
+.colorproduct {
+  display: flex;
+  gap: 1rem;
+  position: relative !important;
+  left: 8rem !important;
+  scale: 1.6;
+  margin-top: -3rem !important;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+
+}
+.buttons button{
+  margin-top: 0rem;
+  display: flex;
+  padding: 16px 20px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: var(--primary-color, #23A6F0);
+  color: white;
+  font-size: 16px;
+  transition: ease-in-out 0.6s;
+  cursor: pointer;
+}
+.buttons button:hover{
+  background: var(--secondary-color-1, #23a5f088);
+  transition: 0.4s;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.icons svg {
+  display: flex;
+width: 40px;
+height: 40px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+border-radius: 44.786px;
+border: 1px solid #E8E8E8;
+  
+}
+
+.product{
+  margin-top: 6rem;
+  
+}

@@ -1,0 +1,119 @@
+.mainContainer{
+  background-color: #91E8E5;
+  display: flex;
+  margin: 4rem;
+height: 600px;
+border-radius: 16px;
+
+}
+.textContinuer{
+  position: relative;
+  top: 7rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-left: 130px;
+
+  
+}
+.textContinuer h5{
+  color: var(--hover-text-color, #2A7CC7);
+
+/* h5 */
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 150% */
+letter-spacing: 0.1px;
+
+} 
+.textContinuer h1{
+  color: var(--text-color, #252B42);
+
+  margin-top: -1rem;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px; /* 137.931% */
+  letter-spacing: 0.2px;
+
+}
+.textContinuer h4{
+  color: var(--second-text-color, #737373);
+
+/* h4 */
+font-family: Montserrat;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+letter-spacing: 0.2px;
+}
+.textContinuer button{
+  display: flex;
+padding: 15px 40px;
+width: 14rem;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+border-radius: 5px;
+background: var(--primary-color, #23A6F0);
+color: var(--light-text-color, #FFF);
+text-align: center;
+
+/* h3 */
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px; /* 133.333% */
+letter-spacing: 0.1px;
+border: none;
+cursor: pointer;
+transition: ease-in-out 1s;
+}
+.textContinuer button:hover{
+background: var(--primary-color, #23a5f077);
+transition: 0.4s;
+color: white;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.girl{
+  position: relative;
+  top: -1rem;
+}
+.cercl1{
+
+  position: relative;
+
+  top: -20rem;
+}
+.cercle2{
+  position: relative;
+  top: -10rem;
+  border: 1px solid;
+  
+}
+.cercle3{
+  position: relative;
+  top: -33rem;
+}
+.bigcercle{
+  width: 499.882px;
+height: 499.882px;
+position: absolute;
+flex-shrink: 0;
+right:  10rem;
+border-radius: 499.882px;
+background: var(--light-background-color, #FFF);
+
+}
+.circle4{
+  position: relative;
+  left: 39rem;
+  top: -33rem;
+}
+  
